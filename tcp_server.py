@@ -18,7 +18,7 @@ while 1:
     
     #if not data: break
     
-    currentTime = " " + " updated !!! " + "23.11.08 12:33+ "\r\n"
+    currentTime = " " + " updated !!! " + "23.11.08 12:33"+"\r\n"
     print(data.decode('utf-8'))
     data = data + currentTime.encode('ascii')
     conn.send(data) # echo
